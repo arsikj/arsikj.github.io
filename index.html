@@ -1,11 +1,183 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
 <html>
 <head>
+	<title>Dejan Arsikj</title>
+	<!--fonts-->
+		<link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+	<!--//fonts-->
+		<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+		<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+		<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<!-- for-mobile-apps -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	<!-- //for-mobile-apps -->
+	<!-- js -->
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+	<!-- js -->
+	<!-- start-smooth-scrolling -->
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+	<!-- start-smooth-scrolling -->
 
 </head>
-
 <body>
+<!-- banner -->
+<div class="banner" id="home">
+	<div class="container"> 
+		<div class="top-header row">
+			<script src="js/classie.js"></script>
+			
+			<div class="top-nav">
+				<div class="nav-icon">
+					    <a href="#" class="right_bt" id="activator"><span> </span> </a>
+				</div>
+				<div class="box" id="box">
+					<div class="box_content">        					                         
+						<div class="box_content_center">
+							<div class="form_content">
+								<div class="menu_box_list">
+									<ul>
+										<li><a class="scroll" href="#about"><span>Who am I?</span></a></li>
+										<li><a class="scroll" href="#contact"><span>Contact</span></a></li>
+										<div class="clearfix"> </div>
+									</ul>
+								</div>
+								<a class="boxclose" id="boxclose"> <span> </span></a>
+							</div>                                  
+						</div> 	
+					</div> 
+				</div>       	  
+			</div>
+			<!---start-click-drop-down-menu----->
+			        <!----start-dropdown--->
+			         <script type="text/javascript">
+						var $ = jQuery.noConflict();
+							$(function() {
+								$('#activator').click(function(){
+									$('#box').animate({'top':'0px'},900);
+								});
+								$('#boxclose').click(function(){
+								$('#box').animate({'top':'-1000px'},900);
+								});
+							});
+							$(document).ready(function(){
+							//Hide (Collapse) the toggle containers on load
+							$(".toggle_container").hide(); 
+							//Switch the "Open" and "Close" state per click then slide up/down (depending on open/close state)
+							$(".trigger").click(function(){
+								$(this).toggleClass("active").next().slideToggle("slow");
+									return false; //Prevent the browser jump to the link anchor
+							});
+												
+						});
+					</script>
+			<!---//End-click-drop-down-menu----->
+			<div class="clearfix"> </div>
+		</div>
+		<div class="banner-info">
+			<div class="banner-left">
+				<img src="images/26.png" alt="" style="border-radius: 80%"/>
+			</div>
+			<div class="banner-right">
+				<h1>DEJAN ARSIKJ</h1>
+				<div class="border"></div>
+				<h2>Software Engineer</h2>
+				<a href="#">Grab my résumé</a>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+<!--/header-banner-->
+<!--about-->
+<div class="about text-center" id="about">
+	<div class="container">
+		<h3>ABOUT ME</h3>
+		<div class="strip text-center"><img src="images/about.png" alt=" "/></div>
+		<p>Dyin' ain't much of a livin', boy. here. put that in your report!" and "i may have found 
+		a way out of here. you want a guarantee, buy a toaster. here. put that in your report!" and 
+		"i may have found a way out of here. this is the ak-47 assault rifle, the preferred weapon of 
+		your enemy; and it makes a distinctive sound when fired at you, so remember it. this is the ak-47 
+		assault rifle, the preferred weapon of your enemy; and it makes a distinctive sound when fired at 
+		you, so remember it. don't p!ss down my back and tell me it's raining. this is the ak-47 assault 
+		rifle, the preferred weapon of your enemy; and it makes a distinctive sound when fired at you, 
+		so remember it. don't p!ss down my back and tell me it's raining. this is my gun, clyde! man's 
+		gotta know his limitations. ever notice how sometimes you come across somebody you shouldn't have 
+		f**ked with? well, i'm that guy.</p>
+		
+		
+		
+	</div>
+</div>
+<!--//about-->
+<div class="about-back"></div>
 
-<p>Hello I'm Dejan Arsikj</p>
 
+
+<div class="contact-back"></div>
+<!--contact-->
+<div class="contact about" id="contact">
+	<div class="container">
+		<div class="contact-info text-center">
+			<h3>CONTACT</h3>
+			<div class="strip text-center"><img src="images/con1.png" alt=" "/></div>
+		</div>
+		<div class="text-center" style="margin-top:50px !important">
+			<ul>
+				<li><a class="social-network" href="#"><i class="fa fa-facebook fa-fw"></i><span>Facebook</span></a></li>
+				<li><a class="social-network" href="#"><i class="fa fa-twitter fa-fw"></i><span>Twitter</span></a></li>
+				<li><a class="social-network" href="#"><i class="fa fa-instagram fa-fw"></i><span>Instagram</span></a></li>
+				<li><a class="social-network" href="#"><i class="fa fa-linkedin fa-fw"></i><span>LinkedIn</span></a></li>
+				<li><a class="social-network" href="#"><i class="fa fa-github fa-fw"></i><span>GitHub</span></a></li>
+				<li><a class="social-network" href="#"><i class="fa fa-pinterest fa-fw"></i><span>Pinterest</span></a></li>
+			</ul>
+		</div>
+		</br>
+		<div class="text-center" style="margin-top:50px !important">
+			<h4>Feel free to email me about work, cool projects and ideas or just to say hello!</h4> </br></br>
+			<h4 style="color:#FFFFFF;">arsikj.dejan@gmail.com</h4>
+		</div>
+			
+			
+			<div class="clearfix"></div>
+	</div>
+</div>
+<!--//contact-->
+<div class="footer-top"></div>
+<!--resume-->
+<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			});
+	</script>
+<!-- //here ends scrolling icon -->
 </body>
 </html>
