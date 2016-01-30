@@ -3514,4 +3514,26 @@ a.callbacks_nav.callbacks1_nav.prev {
 	border:2px solid #000;
 }
 
+.nav-social {
+    width: 100%;
+}
+
+.nav-social ul {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-social ul li {
+    list-style: none;
+    flex-grow: 1;
+    text-align: center;
+    padding: 5px;
+}
+
+.nav-social ul li a {
+    display: block;
+}
+
 /*-- responsive media queries --*/
