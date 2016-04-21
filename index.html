@@ -28,7 +28,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<script type="text/javascript" src="js/easing.js"></script>
 		<script type="text/javascript">
 			jQuery(document).ready(function($) {
-				$(".scroll").click(function(event){		
+				$(".scroll").click(function(event){
 					event.preventDefault();
 					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
 				});
@@ -40,16 +40,16 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <body>
 <!-- banner -->
 <div class="banner" id="home">
-	<div class="container"> 
+	<div class="container">
 		<div class="top-header row">
 			<script src="js/classie.js"></script>
-			
+
 			<div class="top-nav">
 				<div class="nav-icon">
 					    <a href="#" class="right_bt" id="activator"><span> </span> </a>
 				</div>
 				<div class="box" id="box">
-					<div class="box_content">        					                         
+					<div class="box_content">
 						<div class="box_content_center">
 							<div class="form_content">
 								<div class="menu_box_list">
@@ -60,10 +60,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 									</ul>
 								</div>
 								<a class="boxclose" id="boxclose"> <span> </span></a>
-							</div>                                  
-						</div> 	
-					</div> 
-				</div>       	  
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 			<!---start-click-drop-down-menu----->
 			        <!----start-dropdown--->
@@ -79,13 +79,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							});
 							$(document).ready(function(){
 							//Hide (Collapse) the toggle containers on load
-							$(".toggle_container").hide(); 
+							$(".toggle_container").hide();
 							//Switch the "Open" and "Close" state per click then slide up/down (depending on open/close state)
 							$(".trigger").click(function(){
 								$(this).toggleClass("active").next().slideToggle("slow");
 									return false; //Prevent the browser jump to the link anchor
 							});
-												
+
 						});
 					</script>
 			<!---//End-click-drop-down-menu----->
@@ -111,19 +111,19 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<div class="container">
 		<h3>ABOUT ME</h3>
 		<div class="strip text-center"><img src="images/about.png" alt=" "/></div>
-		<p>Dyin' ain't much of a livin', boy. here. put that in your report!" and "i may have found 
-		a way out of here. you want a guarantee, buy a toaster. here. put that in your report!" and 
-		"i may have found a way out of here. this is the ak-47 assault rifle, the preferred weapon of 
-		your enemy; and it makes a distinctive sound when fired at you, so remember it. this is the ak-47 
-		assault rifle, the preferred weapon of your enemy; and it makes a distinctive sound when fired at 
-		you, so remember it. don't p!ss down my back and tell me it's raining. this is the ak-47 assault 
-		rifle, the preferred weapon of your enemy; and it makes a distinctive sound when fired at you, 
-		so remember it. don't p!ss down my back and tell me it's raining. this is my gun, clyde! man's 
-		gotta know his limitations. ever notice how sometimes you come across somebody you shouldn't have 
-		f**ked with? well, i'm that guy.</p>
-		
-		
-		
+		<p>My name is Dejan Arsikj. I am a diligent, persevering and enthusiastic Software engineer who always puts quality in everything he does.
+			 My area of interest is mobile and web development. During my undergraduate studies, my internships and my 6-month work experience
+			 I have worked on various projects such as budget planning, book managing, controlling diabetes, measuring noise pollution etc.
+			 I always strive for excellence and stepping outside my comfort zone. I always take a share of the responsibility and work
+			 confidently within a group. </br></br>
+			 At the moment I am working at CodeWell Unlimited where I am a part of a small but strong team. Our current major project is a
+			 productivity application that will serve as a reminder for your daily tasks or errands. Aside from Software engineering,
+			 I am impassioned about new and high technology, basketball, geography etc. My goal is to improve and upgrade my knowledge and
+			 skills in order to produce outstanding and influential applications.
+		 </p>
+
+
+
 	</div>
 </div>
 <!--//about-->
@@ -158,8 +158,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<h4>Feel free to email me about work, cool projects and ideas or just to say hello!</h4> </br></br>
 			<h4 style="color:#FFFFFF;">arsikj.dejan@gmail.com</h4>
 		</div>
-			
-			
+
+
 			<div class="clearfix"></div>
 	</div>
 </div>
@@ -174,12 +174,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				containerID: 'toTop', // fading element id
 				containerHoverID: 'toTopHover', // fading element hover id
 				scrollSpeed: 1200,
-				easingType: 'linear' 
+				easingType: 'linear'
 				};
 			*/
-								
+
 			$().UItoTop({ easingType: 'easeOutQuart' });
-								
+
 			});
 	</script>
 <!-- //here ends scrolling icon -->
